@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SergeiSol/goit-react-hw-01-components/static/css/main.3c1614d9.css",
+    "main.js": "/SergeiSol/goit-react-hw-01-components/static/js/main.a2edc3f4.js",
+    "index.html": "/SergeiSol/goit-react-hw-01-components/index.html",
+    "main.3c1614d9.css.map": "/SergeiSol/goit-react-hw-01-components/static/css/main.3c1614d9.css.map",
+    "main.a2edc3f4.js.map": "/SergeiSol/goit-react-hw-01-components/static/js/main.a2edc3f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c1614d9.css",
+    "static/js/main.a2edc3f4.js"
+  ]
+}

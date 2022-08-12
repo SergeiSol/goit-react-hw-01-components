@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 function Statistics({ items }) {
   return (
     <section className="statistics">
@@ -15,3 +16,13 @@ function Statistics({ items }) {
   );
 }
 export default Statistics;
+
+Statistics.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      persontage: PropTypes.number.isRequired,
+    })
+  ).isRequired,
+};

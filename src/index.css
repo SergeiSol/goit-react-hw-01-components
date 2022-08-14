@@ -62,9 +62,11 @@ img{
   flex-direction: column;
  background-color: rgba(89, 147, 180, 0.587);
 }
+
 .friend-list{
   list-style: none;
   background-color: rgb(190, 201, 180);
+  
 }
 .friends-item{
   display: flex;
@@ -83,4 +85,11 @@ img{
 }
 .transaction-name{
   background-color: rgb(54, 163, 188);
+}
+
+.online{
+  background-color: rgb(21, 210, 46);
+}
+.offline{
+  background-color: rgb(215, 13, 13);
 }
